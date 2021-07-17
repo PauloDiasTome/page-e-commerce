@@ -7,9 +7,8 @@
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Rubik', sans-serif; */
 
-
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -141,4 +140,22 @@ h1 {
     font-size: 2.2rem;
     cursor: pointer;
     padding-right: 5px;
+}
+
+@media (max-width: 575.98px) {
+    .footer {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 800.98px) {
+    .footer {
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767.98) {
+    .footer {
+        padding-left: 40px;
+    }
 }
